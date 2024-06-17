@@ -1,97 +1,166 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  
-  html, body {
-    height: 100%;
-    width: 100%;
-    font-family: Arial, sans-serif; 
-    background-color: #FF9A8B;
-background-image: linear-gradient(90deg, #416e1d 0%, #83bcdd 55%, #180f11 100%);
-
-  } 
-
-
-
-.container{
-
-
-
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav h1{
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #ff9a8b;
+  background-image: linear-gradient(
+    90deg,
+    #416e1d 0%,
+    #83bcdd 55%,
+    #180f11 100%
+  );
+}
+
+.container {
+}
 
 
 
-    font-family: "Rubik Mono One", monospace;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 50px;
-  
+
+nav h1 {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 50px;
+
   color: rgb(32, 32, 25);
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
   padding-top: 30px;
   cursor: pointer;
 }
 
-main h1:hover{
-    transition: 0.7s;
-    color: #416e1d;
-}
-
-.home ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    gap: 30px;
-    font-size: x-large;
-    margin-top: 20px;
-    cursor: pointer;
-
-}
-
-.home ul li{
-
-    background-color: rgb(134, 247, 99);
-    border-radius: 70px;
-    padding: 15px;
-    margin-top: 20px;
-}
-
-.home ul li:hover{
-    background-color: rgb(39, 119, 8);
-}
-
-.introduction{
-    font-family: "Rampart One", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 60px;
+main h1 {
     text-align: center;
-    margin-top: 60px;
+    font-size: 40px;
+    margin-top: 40px;
     cursor: pointer;
-    padding-left: 100pxpx;
-    padding-right: 100px;
+    color: rgb(178, 248, 178);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding-top: 10px;
   }
 
-  .introduction p:hover{
-    
+main h1:hover {
+  transition: 0.7s;
+  color: #048b2c;
+}
+
+.home ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 30px;
+  font-size: large;
+  margin-top: 20px;
+  cursor: pointer;
+  position: fixed;
+  top: 12%;
+  left: 37%;
+}
+
+
+
+.home ul li {
+    background-color: #0ead53;
+    background-image: linear-gradient(45deg, #0ead53 0%, #FFFB7D 100%);
    
-color: #416e1d;
-
-  }
-
-    main h1{
-        text-align: center;
-        font-size: xx-large;
-    }
-
-
     
+  border-radius: 70px;
+  padding: 15px;
+  margin-top: 30px;
+ 
+}
+
+.home ul li:hover {
+   
+  background-color: rgb(39, 119, 8);
+  filter: brightness(0.9);
+
+  
+}
+
+.introduction {
+  font-family: "Rampart One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  cursor: pointer;
+  padding-left: 100pxpx;
+  padding-right: 100px;
+}
+
+.introduction p:hover {
+  color: #416e1d;
+}
+
+
+
+.my-creations{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+    
+}
+
+img{
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+img:hover{filter: brightness(50%);
+    box-shadow: 0 0 15px 5px rgba(3, 243, 15, 0.796);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.my-creations .image {
+    position: relative;
+    margin: 20px;}
+
+
+    .text {
+        color: rgb(211, 3, 3);
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .hidden{
+        position: absolute;
+        top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+
+      }
+
+
+      .hidden:hover{
+        color: brown;
+        opacity: 1;
+        filter: brightness(50%);
+    box-shadow: 0 0 15px 5px rgba(3, 116, 8, 0.996);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    
+      }

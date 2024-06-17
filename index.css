@@ -63,6 +63,7 @@ main h1:hover {
   position: fixed;
   top: 12%;
   left: 37%;
+  z-index: 3;
 }
 
 .home ul li {

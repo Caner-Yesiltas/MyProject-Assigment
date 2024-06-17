@@ -40,6 +40,11 @@ nav h1{
   cursor: pointer;
 }
 
+main h1:hover{
+    transition: 0.7s;
+    color: #416e1d;
+}
+
 .home ul{
     display: flex;
     justify-content: center;
@@ -54,11 +59,39 @@ nav h1{
 
 .home ul li{
 
-    background-color: rgb(161, 170, 243);
+    background-color: rgb(134, 247, 99);
     border-radius: 70px;
     padding: 15px;
+    margin-top: 20px;
 }
 
 .home ul li:hover{
-    background-color: rgb(248, 14, 190);
+    background-color: rgb(39, 119, 8);
 }
+
+.introduction{
+    font-family: "Rampart One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 60px;
+    cursor: pointer;
+    padding-left: 100pxpx;
+    padding-right: 100px;
+  }
+
+  .introduction p:hover{
+    
+   
+color: #416e1d;
+
+  }
+
+    main h1{
+        text-align: center;
+        font-size: xx-large;
+    }
+
+
+    

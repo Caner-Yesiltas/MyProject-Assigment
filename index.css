@@ -30,9 +30,10 @@ nav h1 {
   color: rgb(32, 32, 25);
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
   text-align: center;
-  margin-top: 50px;
-  padding-top: 30px;
+
+  padding-top: 90px;
   cursor: pointer;
+  margin-top: -20px;
 }
 
 main h1 {
@@ -171,6 +172,7 @@ img:hover {
   width: 100%;
   height: 20rem;
   gap: 50px;
+
 }
 
 i {
@@ -257,3 +259,4 @@ button:hover {
   width: 50px;
   height: 50px;
 }
+
